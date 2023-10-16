@@ -1,0 +1,121 @@
+:root {
+    --primary: #111B54;
+    --light: #ffffff;
+    --grey: #efefef;
+    --procasu:#15224D; 
+    --pro: #11BDD1;
+}
+
+body {
+    
+    font-family: 'Muli', sans-serif;
+    font-weight: 100;
+    color: var(--primary);
+}
+
+a:hover {
+    text-decoration: none;
+    font-weight: 100;
+}
+
+.bg-primary { background-color: var(--primary) !important; }
+
+.bg-light { background-color: var(--light) !important; }
+
+.bg-grey { background-color: var(--grey) !important; }
+
+.bg-mix { background: linear-gradient(180deg, var(--light) 50%, var(--grey) 0); }
+
+.btn-primary {
+    background-color: var(--primary);
+    border: 0;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary);
+}
+
+#sidebar-container {
+    min-height: 100vh;
+}
+  
+#sidebar-container .logo{
+    padding: 0.875rem 1.25rem;
+}
+  
+#sidebar-container .menu {
+    width: 18rem;
+}
+
+#content {
+    
+    height: 100vh;
+    padding-bottom: 5rem;
+}
+
+.avatar {
+    max-width: 35px;
+}
+
+.btn-search {
+    right: 0;
+}
+
+.stat {
+    border-right: 1px solid var(--grey);
+}
+
+
+.img-thumbnail {
+    padding: 0.25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    max-width: 100%;
+    height: auto;
+  }
+  
+@media (max-width: 768px) {
+    #sidebar-container {
+      display: none;
+    }
+    .stat {
+        border: 0;
+    }
+  }
+  
+/*:::::Pie de Pagina*/
+.pie-pagina{
+    width: 100%;
+    background-color: red;
+}
+
+.pie-pagina .grupo-2{
+    background-color: #fff;
+    padding: 15px 10px;
+    text-align: center;
+    color: #0a1a2a;
+}
+.pie-pagina .border-bottom{
+    color: var(--procasu);
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+
+.menu .border-info{
+    padding: 4;
+}
+
+/*Estilos Modelo G*/
+.largo{
+   width: 125px;
+}
+.conbnt{
+    display: flex;
+}
+
+
+
+
+

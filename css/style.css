@@ -1,0 +1,55 @@
+* {
+  font-family: Nunito; }
+
+.form-control-user {
+  font-size: 1.3rem;
+  border-radius: 10rem;
+  padding: 1rem .8rem; }
+
+.form-control-user1 {
+    font-size: .7rem;
+    border-radius: 5rem;
+
+    padding: .8rem .5rem; }
+
+.btn-primary {
+  background-color:#34D9C3 !important;
+  border: #0000;
+
+}
+
+.bg-primary {
+  background-color: #34D9C3 !important;
+  color: #f8f9fa; }
+
+.a {
+  color:rgba(102, 28, 28, 0.925);
+  text-decoration:none;
+  background-color: transparent; }
+.color-h5{
+  color: rgba(127, 121, 218);
+}
+
+
+hr {
+  
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-width: 1px 0px 0px;
+  border-right-style: initial;
+  border-bottom-style: initial;
+  border-left-style: initial;
+  border-right-color: initial;
+  border-bottom-color: initial;
+  border-left-color: initial;
+  border-image: initial;
+  border-top-style: solid;
+  border-top-color: rgba(0, 0, 0, 0.1); }
+
+.zoom {
+  transition: transform .2s; }
+
+.zoom:hover {
+  transform: scale(1.2); }
+
+/*# sourceMappingURL=style.css.map */

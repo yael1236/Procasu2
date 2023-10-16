@@ -1,0 +1,136 @@
+:root{
+    --primary: #15224d;
+    --secondary: #11bdd1;
+    --grey: #dddddd;
+    --light: #fff;
+
+
+}
+body{
+    font-size: 'roboto', sans-serif;
+    font-size: .8rem;
+    font-weight: 300;
+    background-color: var(--grey);
+    color: var(--primary);
+    letter-spacing: .15rem;
+
+    
+    
+
+}
+footer{
+  color: white;
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: .7rem;
+  font-weight: 100;
+  background-color: #091331;
+  
+
+  
+}
+.bg-primary{
+    background-color: var(--primary) !important;
+
+}
+
+.bg-secondary{
+    background-color: var(--secondary) !important;
+}
+
+.p6{
+    padding: 4rem 7rem;
+
+}
+.a-p{
+    color:#000000;
+
+}
+.a{
+    color: #091331;
+}
+.contact-box{
+    padding: 1.5rem;
+
+
+
+}
+.btn{
+    font-weight: 400;
+    padding: .5rem .5rem;
+    border-radius: 3rem;
+    min-width: 10rem;
+    color: var(--primary);
+    background-color: var(--secondary);
+    margin-left: 150px;
+    
+
+}
+.btn-outline-dark{
+    border: 1px solid var(--primary);
+    background-color: var(--light);
+    padding: .1rem .1rem;    
+    color: #000000;
+}
+.form-control{
+    background-color: var(--light);
+    border: 1px solid var(--light);
+    border-radius: 20px;
+    padding: .5rem .5rem;
+    margin-bottom: 300px;
+    border: 2px solid #cbcbcb;
+    font-size: 16px;
+    outline: none;
+    display: flex;
+    color: #000000;
+
+}
+.form-group{
+    position: left;
+}
+.form-group > i {
+    padding: 36px;
+    border-radius: 50%;
+    color:var(--primary);
+    position: absolute;
+    font-size: 30px;
+    top: 4px;
+    position: center;
+    display: flex;
+}
+
+.form-group{
+    position: center;
+}
+
+.register-bg{
+    background-image: url('../img/PáginaWeb.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+
+}
+.content{
+    width: 700px;
+    margin: 7rem;
+}
+
+.setings{
+    display: block;
+    display: flex;
+    flex-direction: row ;
+    margin: 0;
+    padding:0 5rem ;
+    font-size: 25px;
+    position: center;
+
+
+}
+.ml-2{
+    margin-left: .5rem; 
+    display:flex;
+}
+.img{
+    color: #091331;
+}
+
+
