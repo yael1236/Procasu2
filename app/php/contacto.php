@@ -46,14 +46,14 @@ if (isset($_POST['submit'])) {
         try {
            // $mail->SMTPDebug = SMTP::DEBUG_OFF;
             $mail->isSMTP();
-            $mail->Host = ' smtp.gmail.com ';
+            $mail->Host = 'smtp.hostinger.com';
             $mail->SMTPAuth = true;
-            $mail->Username = '21307004@utfv.edu.mx';
-            $mail->Password = 'marianasanchez160311';
-            $mail->Port = 587;
+            $mail->Username = 'atencion@procasu.net';
+            $mail->Password = 'Procasu2023#admin';
+            $mail->Port = 465;
 
-            $mail->setFrom('marianasanchez30330@gmail.com', 'Emisor');
-            $mail->addAddress('21307004@utfv.edu.mx', 'Receptor');
+            //$mail->setFrom('', 'Emisor');
+            $mail->addAddress('atencion@procasu.net', 'Receptor');
             //$mail->addReplyTo('otro@dominio.com');
 
             $mail->isHTML(true);
