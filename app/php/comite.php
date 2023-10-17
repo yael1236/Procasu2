@@ -244,6 +244,12 @@
                         <label for="">Contacto adicional</label>
                         <input type="text" placeholder='Contacto adicional' style="margin-top: 1rem;">
                         <hr>
+                        <div style="text-align: center;" class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                            <label class="form-check-label" for="flexSwitchCheckDefault">Añadir 4 miembros más</label>
+                        </div>
+                        
+
                         <div class="modal-footer">
                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
                              <button type="button" class="btn btn-primary">Guardar</button>
@@ -259,30 +265,30 @@
       
             </div>
             <div  style="padding-left:3rem;display:flex; width:90%;">
-            <table style="border-collapse:separate; border-spacing:.5rem; border-color:black;   border-radius: .4rem; " class="table  table-primary ">
+            <table style="background-color: #15224d; border-collapse:separate; border-spacing:.5rem; border-color:black;   border-radius: .4rem; " class="table  table-primary ">
                 <tr>
-                  <td> Nombre</td>  
-                  <td> ...</td>
+                  <td style="background-color: #efefef;"> Nombre</td>  
+                  <td style="background-color: #efefef;"> ...</td>
                 </tr>
                 <tr>
-                  <td> Puesto</td>  
-                  <td> ...</td>
+                  <td style="background-color: #efefef;"> Puesto</td>  
+                  <td style="background-color: #efefef;"> ...</td>
                 </tr>
                 <tr>
-                  <td> RFC</td>  
-                  <td> ...</td>
+                  <td style="background-color: #efefef;"> RFC</td>  
+                  <td style="background-color: #efefef;"> ...</td>
                 </tr>
                 <tr>
-                  <td> Numero de contacto</td>  
-                  <td> ...</td>
+                  <td style="background-color: #efefef;"> Numero de contacto</td>  
+                  <td style="background-color: #efefef;"> ...</td>
+                </tr style="background-color: #efefef;">
+                <tr>
+                  <td style="background-color: #efefef;"> Correo</td>  
+                  <td style="background-color: #efefef;"> ...</td>
                 </tr>
                 <tr>
-                  <td> Correo</td>  
-                  <td> ...</td>
-                </tr>
-                <tr>
-                  <td> Contacto adicional</td>  
-                  <td> ...</td>
+                  <td style="background-color: #efefef;"> Contacto adicional</td>  
+                  <td style="background-color: #efefef;"> ...</td>
                 </tr>
               </table>
             </div>
@@ -291,30 +297,31 @@
               <h1 style="margin-left: 1rem;">Usuario 2</h1>
             </div>
             <div  style="padding-left:3rem;display:flex; width:90%;">
-            <table style="border-collapse:separate; border-spacing:.5rem; border-color:black;   border-radius: .4rem; " class="table  table-primary ">
+            <table style="background-color: #15224d; border-collapse:separate; border-spacing:.5rem; border-color:black;   border-radius: .4rem; " class="table  table-primary ">
                 <tr>
-                  <td> Nombre</td>  
-                  <td> ...</td>
+                  <td style="background-color: #efefef;"> Nombre</td>  
+                  <td style="background-color: #efefef;"> ...</td>
                 </tr>
                 <tr>
-                  <td> Puesto</td>  
-                  <td> ...</td>
+                  <td style="background-color: #efefef;"> Puesto</td>  
+                  <td style="background-color: #efefef;"> ...</td>
                 </tr>
                 <tr>
-                  <td> RFC</td>  
-                  <td> ...</td>
+                  <td style="background-color: #efefef;"> RFC</td>  
+                  <td style="background-color: #efefef;"> ...</td>
                 </tr>
                 <tr>
-                  <td> Numero de contacto</td>  
-                  <td> ...</td>
+                  <td style="background-color: #efefef;"> Numero de contacto</td>  
+                  <td style="background-color: #efefef;"> ...</td>
                 </tr>
                 <tr>
-                  <td> Correo</td>  
-                  <td> ...</td>
+                  <td style="background-color: #efefef;"> Correo</td>  
+                  <td style="background-color: #efefef;"> ...</td>
                 </tr>
+                
                 <tr>
-                  <td> Contacto adicional</td>  
-                  <td> ...</td>
+                  <td style="background-color: #efefef;"> Contacto adicional</td>  
+                  <td style="background-color: #efefef;"> ...</td>
                 </tr>
               </table>
             </div>
