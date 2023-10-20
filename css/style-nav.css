@@ -25,10 +25,17 @@
 .btn-outline-primary:hover {
     background-color: var(--procasu1) ;
 }
-
+.texto1{
+    color: var(--procasu1);
+}
 /*nav*/
 .navbar{
     background-color: var(--procasu3);
+}
+
+/*Imagen*/
+.avatar {
+    max-width: 35px;
 }
 /*menu*/
 #sidebar-container  {
@@ -53,12 +60,31 @@
     padding-bottom: 5rem;
 }
 
-
+/*:::::Pie de Pagina*/
+footer .conbnt{
+    background-color: var(--procasu3);
+    color: #0a1a2a;
+    width: 100%;
+}
 .conbnt{
     display: flex;
     width: 100%;
 }
-
+.texto{
+    text-align: center;
+    padding-top: 1rem;
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+.largo{
+    width: 260px;
+    padding-top: 1rem;
+}
+.largo1{
+    width: 150px;
+    padding-top: 1rem;
+    padding-right: 2rem;
+}
 .icon{
     margin-right: 1rem;
     margin-left: 3rem;
@@ -69,15 +95,28 @@
     width: 100%;
     display: flex;
 }
-;
+.derechos{
+    color: #dddddd;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+.cont .small{
+    color: #dddddd;
+    margin-top: 3rem;
+}
 
-
-
+/*modelo*/
+.modelo{
+    padding-left: 2rem ;
+    padding-right: 2rem;
+}
 .ico{
     align-content: center;
 
 }
-
+.lg{    
+    width: 95%;
+}
 .card{
     width: 115%;
 }
@@ -85,4 +124,33 @@
     width: 150%;
     padding-left: 3rem;
     margin-left: 1.5rem;
+}
+a:hover {
+    text-decoration: none;
+    font-weight: 100;
+}
+.sub{
+    text-align: center;
+}
+.progress{
+    width: 600px;
+} 
+h6{
+    color: white;
+}
+/*perfil*/
+.form-group {
+  margin-bottom: 1rem; 
+}
+.input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 500px; 
+}
+
+.nav-item{
+    color: var(--procasu3);
+    border: 0;
 }
