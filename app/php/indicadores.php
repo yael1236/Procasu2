@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 
-<head>
+    <head>
     
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -25,89 +25,89 @@
 	<meta charset="UTF-8">
 	
     <title>Indicadores</title>
-</head>
-<body>
-<div class="d-flex" id="content-wrapper">
+    </head>
+        <body>
+        <div class="d-flex" id="content-wrapper">
 
-    <!-- MENU -->
-    <div id="sidebar-container" class="bg-primary" style=" top:0; height:auto;">
-            <div class="logo">
-                <h4 class="text-light font-weight-bold mb-0">PROCASU</h4>
-            </div>
-            <div class="menu">
-            <a href="#" class="m-3 d-inline-block btn  d-block  " style="padding:1rem; background-color: var(--procasu3); text-align: center; ">
-                    <img src="../../img/Icono-Herramientas-PROCASU.png" alt="herramientas" class="iconos " style="margin-right: .5rem;">
-                    Herramientas PROCASU
-                </a>
-                <br>
-                <br>
-                <a href="#" class="m-3 d-inline-block btn d-block   " style="padding:1rem; background-color: var(--procasu3); margin-left: rem;  ">
-                    <img src="../../img/Icono-Biblioteca-Digital.png" alt="herramientas" class="iconos " style="margin-right: 3rem;">
-                    Biblioteca Digital
-                </a>
-                <br>
-                <a href="#" class="m-3 d-inline-block btn d-block " style="padding:1rem; background-color: var(--procasu3);   ">
-                    <img src="../../img/Icono-Conoce-PROCASU.png" alt="herramientas" class="iconos " style="margin-right: 2rem;">
-                    Conoce PROCASU
-                </a>
-                <br>
-                <a href="../php/contacto.php" class="m-3 d-inline-block btn  d-block " style="padding:1rem; background-color: var(--procasu3); ">
-                    <img src="../../img/Icono-Necesitas-Ayuda.png" alt="herramientas" class="iconos " style="margin-right: 2rem;">
-                    ¿Necesitas Ayuda?
-                </a>
-            </div>
+        <!-- MENU -->
+        <div id="sidebar-container" class="bg-primary" style=" top:0; height:auto;">
+        <div class="logo">
+        <h4 class="text-light font-weight-bold mb-0">PROCASU</h4>
+         </div>
+        <div class="menu">
+        <a href="#" class="m-3 d-inline-block btn  d-block  " style="padding:1rem; background-color: var(--procasu3); text-align: center; ">
+        <img src="../../img/Icono-Herramientas-PROCASU.png" alt="herramientas" class="iconos " style="margin-right: .5rem;">
+        Herramientas PROCASU
+        </a>
+        <br>
+        <br>
+        <a href="#" class="m-3 d-inline-block btn d-block   " style="padding:1rem; background-color: var(--procasu3); margin-left: rem;  ">
+        <img src="../../img/Icono-Biblioteca-Digital.png" alt="herramientas" class="iconos " style="margin-right: 3rem;">
+        Biblioteca Digital
+        </a>
+        <br>
+        <a href="#" class="m-3 d-inline-block btn d-block " style="padding:1rem; background-color: var(--procasu3);   ">
+        <img src="../../img/Icono-Conoce-PROCASU.png" alt="herramientas" class="iconos " style="margin-right: 2rem;">
+         Conoce PROCASU
+        </a>
+        <br>
+        <a href="../php/contacto.php" class="m-3 d-inline-block btn  d-block " style="padding:1rem; background-color: var(--procasu3); ">
+        <img src="../../img/Icono-Necesitas-Ayuda.png" alt="herramientas" class="iconos " style="margin-right: 2rem;">
+        ¿Necesitas Ayuda?
+        </a>
         </div>
-    <!-- Fin MENU -->
+        </div>
+        <!-- Fin MENU -->
         <div class="w-100">
 
-         <!-- Navbar -->
-         <nav class="navbar navbar-expand-lg  ">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg  ">
         <a class="navbar-brand" href="#">
-            <img src="img/logo Procasu.png" alt="logo" width="150px">
+        <img src="img/logo Procasu.png" alt="logo" width="150px">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <div class="" style="margin-top: 1rem; margin-left: 3rem;">
-                    <p class="text-sm-left">PROGRAMA PARA EL DESARROLLO DE LA SUSTENTABLIDAD ENLA CADEIA DE SUMANISTRO</p>
-                </div>
+        <ul class="navbar-nav mr-auto">
+        <div class="" style="margin-top: 1rem; margin-left: 3rem;">
+        <p class="text-sm-left">PROGRAMA PARA EL DESARROLLO DE LA SUSTENTABLIDAD ENLA CADEIA DE SUMANISTRO</p>
+        </div>
         </div>
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0 content">
-            <li class="nav-item dropdown">
-                <a class="nav-link text-dark dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <img src="Iconos/Icono-Usuario.png " class="img-fluid rounded-circle avatar mr-2" alt="imagen" />
-                    usuario
-                </a>
-                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Mi perfil</a>
-                    <a class="dropdown-item" href="#">Expediente</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Cerrar sesión</a>
-                </div>
-            </li>
+        <li class="nav-item dropdown">
+        <a class="nav-link text-dark dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <img src="Iconos/Icono-Usuario.png " class="img-fluid rounded-circle avatar mr-2" alt="imagen" />
+        usuario
+        </a>
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item" href="#">Mi perfil</a>
+        <a class="dropdown-item" href="#">Expediente</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">Cerrar sesión</a>
+        </div>
+        </li>
         </ul>
-    </nav>
-          <main style="height: 41.3rem; width:auto;">
-          <div style="display: flex; margin:none; padding:none; ">
-        <div class="container py-3 p-15">
-            <div class="row">
+        </nav>
+                <main style="height: 41.3rem; width:auto;">
+                <div style="display: flex; margin:none; padding:none; ">
+                <div class="container py-3 p-15">
+                <div class="row">
                 <div class="container mt-0">
-    <div class="row align-items-start">
-        <div class="col-2">
+                <div class="row align-items-start">
+                <div class="col-2">
                 <div class="card-header bg-grey">
                 <div class="card rounded bg-grey">
                 <div class="btn-group">
-<button class="btn  dropdown-toggle" type="button" style="background-color: white; color:black;" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
-Commitment
-</button>
-<ul class="dropdown-menu">
-<li>   
-    <div class="card" style="width: 22rem;">
-<div class="card-header">
-  <h5>Gobernanza</h5>
+                <button class="btn  dropdown-toggle" type="button" style="background-color: white; color:black;" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+                Commitment
+                </button>
+                <ul class="dropdown-menu">
+                <li>   
+                <div class="card" style="width: 22rem;">
+                <div class="card-header">
+                <h5>Gobernanza</h5>
   <ul class="list-group list-group-flush">
   <li class="list-group-item"> 
   <div class=" align-text-bottom ">
