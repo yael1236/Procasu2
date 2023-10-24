@@ -144,7 +144,7 @@
                                     ESG Developer
                                 </a>
                                 <a href="#" class=" m-2 border btn btn-outline-primary ">
-                                    ESG Mater
+                                    ESG Master
                                 </a>
                                 <a href="#" class=" m-2 border btn btn-outline-primary ">
                                     ESG Pro

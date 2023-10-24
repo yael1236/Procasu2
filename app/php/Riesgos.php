@@ -30,23 +30,23 @@
     </div>
     <div class="menu">
     <a href="#" class="m-3 d-inline-block btn  d-block  " style="padding:1rem; background-color: var(--procasu3); text-align: center; ">
-    <img src="../../img/Icono-Herramientas-PROCASU.png" alt="herramientas" class="iconos " style="margin-right: .5rem;">
+    <img src="../../img/Iconos_png/Icono-Herramientas-PROCASU.png" alt="herramientas" class="iconos " style="margin-right: .5rem;">
     Herramientas PROCASU
     </a>
     <br>
     <br>
     <a href="#" class="m-3 d-inline-block btn d-block   " style="padding:1rem; background-color: var(--procasu3); margin-left: rem;  ">
-    <img src="../../img/Icono-Biblioteca-Digital.png" alt="herramientas" class="iconos " style="margin-right: 3rem;">
+    <img src="../../img/Iconos_png/Icono-Biblioteca-Digital.png" alt="herramientas" class="iconos " style="margin-right: 3rem;">
     Biblioteca Digital
     </a>
     <br>
     <a href="#" class="m-3 d-inline-block btn d-block " style="padding:1rem; background-color: var(--procasu3);   ">
-    <img src="../../img/Icono-Conoce-PROCASU.png" alt="herramientas" class="iconos " style="margin-right: 2rem;">
+    <img src="../../img/Iconos_png/Icono-Conoce-PROCASU.png" alt="herramientas" class="iconos " style="margin-right: 2rem;">
     Conoce PROCASU
     </a>
     <br>
     <a href="../php/contacto.php" class="m-3 d-inline-block btn  d-block " style="padding:1rem; background-color: var(--procasu3); ">
-    <img src="../../img/Icono-Necesitas-Ayuda.png" alt="herramientas" class="iconos " style="margin-right: 2rem;">
+    <img src="../../img/Iconos_png/Icono-Necesitas-Ayuda.png" alt="herramientas" class="iconos " style="margin-right: 2rem;">
     ¿Necesitas Ayuda?
     </a>
     </div>
@@ -57,7 +57,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg">
     <a class="navbar-brand" href="#">
-    <img src="img/logo Procasu.png" alt="logo" width="150px">
+    <img src="../../img/logo Procasu.png" alt="logo" width="150px">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -65,13 +65,13 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
     <div class="" style="margin-top: 1rem; margin-left: 3rem;">
-    <p class="text-sm-left">PROGRAMA PARA EL DESARROLLO DE LA SUSTENTABLIDAD ENLA CADEIA DE SUMANISTRO</p>
+    <p class="text-sm-left">PROGRAMA PARA EL DESARROLLO DE LA SUSTENTABLIDAD EN LA CADENA DE SUMINISTROS</p>
     </div>
     </div>
     <ul class="navbar-nav ml-auto mt-2 mt-lg-0 content">
     <li class="nav-item dropdown">
     <a class="nav-link text-dark dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    <img src="Iconos/Icono-Usuario.png " class="img-fluid rounded-circle avatar mr-2" alt="imagen" />
+    <img src="../../img/Icono-Usuario.png" class="img-fluid rounded-circle avatar mr-2" alt="imagen" />
     usuario
     </a>
     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
@@ -93,7 +93,13 @@
                               $Alto = 6;
                               $Moderado = 4;
                               $Bajo =  2;
-                              $mult = $Bajo * $Improbable;
+                              $Critico;
+                              $mult= $Improbable * $Bajo;
+                              $mult= $Probable * $Bajo;
+                              $mult= $Raravez * $Bajo;
+                              $mult= $MProbable * $Bajo;
+                              
+                              
 
                               ?>
                               <!-- Tabla -->
@@ -118,135 +124,9 @@
 														  <th class="text-center" scope="col" style="width:auto;">Factor de riesgo</th>
                               <th class="text-center" scope="col">Raíz</th>
                               <th class="text-center" scope="col">Consecuencia</th>
-                              <th class="text-center" scope="col">
-                              <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal"> <b>Control1</b></button>         
-                              <!-- Modal -->
-                              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                              <div class="modal-dialog" role="document">
-                              <div class="modal-content">
-                              <div class="modal-header">
-                              <h5 class="modal-title" id="exampleModalLabel">Subir informacion</h5>
-                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                              <span aria-hidden="true">&times;</span>
-                              </button>
-                              </div>
-                             <div class="modal-body">
-                              <form action="#">
-                              <div>
-                              <label for="">Accion</label>
-                              <input type="text" placeholder=''>
-                             </div>
-                              <hr>
-                              <div>
-                              <label for="">Responsable</label>
-                              <input type="text" style="margin-top: 1rem;">
-                              </div>
-                              <hr>
-                              <div>
-                              <label for="">Fecha de seguimineto</label>
-                              <input type="date" style="margin-top: 1rem;">
-                              </div>
-                              <hr>
-                               <div>
-                              <label for="">Fecha de cumplimiento</label>
-                              <input type="date" style="margin-top: 1rem;">
-                              </div>
-                              <hr>
-                              <div>
-                              <label for="">Evidencia</label>
-                              <input type="file">
-                              </div>
-                              </div> 
-                              </div>
-                              </div>
-                              </div>
-                              </th>
-                              <th class="text-center" scope="col">
-                              <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal"><b>Control 2</b></button>
-                              <!-- Modal -->
-                              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                              <div class="modal-dialog" role="document">
-                              <div class="modal-content">
-                              <div class="modal-header">
-                              <h5 class="modal-title" id="exampleModalLabel">Actualizar Datos</h5>
-                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                              <span aria-hidden="true">&times;</span>
-                              </button>
-                              </div>
-                              <div class="modal-body">
-                              <form action="#">
-                              <div>
-                              <label for="">Accion</label>
-                              <input type="text" placeholder=''>
-                              </div>
-                              <hr>
-                              <div>
-                              <label for="">Responsable</label>
-                              <input type="text" style="margin-top: 1rem;">
-                              </div>
-                              <hr>
-                              <div>
-                              <label for="">Fecha de seguimineto</label>
-                              <input type="date" style="margin-top: 1rem;">
-                              </div>
-                              <hr>
-                              <div>
-                              <label for="">Fecha de cumplimiento</label>
-                              <input type="date" style="margin-top: 1rem;">
-                              </div>
-                              <hr>
-                              <div>
-                              <label for="">Evidencia</label>
-                              <input type="file">
-                              </div>
-                              </div> 
-                              </div>
-                              </div>
-                              </div>
-                              </th>
-                              <th class="text-center" scope="col">
-                              <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal"><b>Control 3</b></button>
-                             <!-- Modal -->
-                              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                              <div class="modal-dialog" role="document">
-                              <div class="modal-content">
-                              <div class="modal-header">
-                              <h5 class="modal-title" id="exampleModalLabel">  Datos</h5>
-                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                              <span aria-hidden="true">&times;</span>
-                              </button>
-                              </div>
-                              <div class="modal-body">
-                              <form action="#">
-                              <div>
-                              <label for="">Accion</label>
-                              <input type="text" placeholder=''>
-                              </div>
-                              <hr>
-                              <div>
-                              <label for="">Responsable</label>
-                              <input type="text" style="margin-top: 1rem;">
-                              </div>
-                              <hr>
-                              <div>
-                              <label for="">Fecha de seguimineto</label>
-                              <input type="date" style="margin-top: 1rem;">
-                              </div>
-                              <hr>
-                              <div>
-                              <label for="">Fecha de cumplimiento</label>
-                              <input type="date" style="margin-top: 1rem;">
-                              </div>
-                              <hr>
-                              <div>
-                              <label for="">Evidencia</label>
-                              <input type="file">
-                              </div>
-                              </div> 
-                              </div>
-                              </div>
-                              </div>
-                              </th>
+                              <th class="text-center" scope="col">Control 1</th>
+                              <th class="text-center" scope="col">Control 2</th>
+                              <th class="text-center" scope="col">Control 3 </th>
                               <th class="text-center" scope="col"><div class="btn-group">Probabilidad</th>
                               <th class="text-center" scope="col">Impacto</th>
                               <th class="text-center" scope="col">Evaluacion</th>
@@ -261,9 +141,132 @@
 														  <td class="border-3">etc</td>
 														  <td class="border-3">etc</td>
                               <td class="border-3">etc</td>
-														  <td class="border-3">etc</td>
-														  <td class="border-3">etc</td>
-                              <td class="border-3">etc</td>
+														  <td class="border-3">
+                              <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal"> <b>Click</b></button>
+                              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                              <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                              <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Subir informacion</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                              </button>
+                              </div>
+                              <div class="modal-body">
+                              <form action="#">
+                              <div>
+                              <label for="">Accion</label>
+                              <input type="text" placeholder=''>
+                              </div>
+                              <hr>
+                              <div>
+                              <label for="">Responsable</label>
+                              <input type="text" style="margin-top: 1rem;">
+                              </div>
+                              <hr>
+                              <div>
+                              <label for="">Fecha de seguimineto</label>
+                              <input type="date" style="margin-top: 1rem;">
+                              </div>
+                              <hr>
+                              <div>
+                              <label for="">Fecha de cumplimiento</label>
+                              <input type="date" style="margin-top: 1rem;">
+                              </div>
+                              <hr>
+                              <div>
+                              <label for="">Evidencia</label>
+                              <input type="file">
+                              </div>
+                              </div> 
+                              </div>
+                              </div>
+                              </div>
+                              </td>
+														  <td class="border-3">
+                              <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal"> <b>Click</b></button>
+                              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                              <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                              <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Subir informacion</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                              </button>
+                              </div>
+                              <div class="modal-body">
+                              <form action="#">
+                              <div>
+                              <label for="">Accion</label>
+                              <input type="text" placeholder=''>
+                              </div>
+                              <hr>
+                              <div>
+                              <label for="">Responsable</label>
+                              <input type="text" style="margin-top: 1rem;">
+                              </div>
+                              <hr>
+                              <div>
+                              <label for="">Fecha de seguimineto</label>
+                              <input type="date" style="margin-top: 1rem;">
+                              </div>
+                              <hr>
+                              <div>
+                              <label for="">Fecha de cumplimiento</label>
+                              <input type="date" style="margin-top: 1rem;">
+                              </div>
+                              <hr>
+                              <div>
+                              <label for="">Evidencia</label>
+                              <input type="file">
+                              </div>
+                              </div> 
+                              </div>
+                              </div>
+                              </div>
+                              </td>
+                              <td class="border-3">
+                              <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal"> <b>Click</b></button>
+                              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                              <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                              <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Subir informacion</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                              </button>
+                              </div>
+                              <div class="modal-body">
+                              <form action="#">
+                              <div>
+                              <label for="">Accion</label>
+                              <input type="text" placeholder=''>
+                              </div>
+                              <hr>
+                              <div>
+                              <label for="">Responsable</label>
+                              <input type="text" style="margin-top: 1rem;">
+                              </div>
+                              <hr>
+                              <div>
+                              <label for="">Fecha de seguimineto</label>
+                              <input type="date" style="margin-top: 1rem;">
+                              </div>
+                              <hr>
+                              <div>
+                              <label for="">Fecha de cumplimiento</label>
+                              <input type="date" style="margin-top: 1rem;">
+                              </div>
+                              <hr>
+                              <div>
+                              <label for="">Evidencia</label>
+                              <input type="file">
+                              </div>
+                              </div> 
+                              </div>
+                              </div>
+                              </div>
+                              </td>
 														  <td class="border-3">
                               <div class="input-group">
                               <select class="form-select" aria-label="Default select example">
@@ -289,16 +292,15 @@
                               </td>
                               
 														  <td class="border-3" style="text-align: right;" >
-                              <?php
-
-                              if ($mult == 6) {
-                                  echo "Bajo.";
-                              } //elseif ($) {
-                                //  echo ".";
-                             // } else {
-                               //   echo ".";
-                              //}
-                              ?>
+                              <select class="form-select" aria-label="Default select example">
+                              <option selected></option>
+                              <option value='.$Critico.'>Critico</option>
+                              <option value='.$Alto.'>Alto</option>
+                              <option value='.$Moderado.'>Medio</option>
+                              <option value='.$Bajo.'>Bajo</option>
+                              </select>   
+                              </div>
+                              </div>
                               </td>
 														  <td class="border-3">etc</td>
 														  </tr>
