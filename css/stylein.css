@@ -2,7 +2,9 @@
     --primary: #15224d;
     --light: #11bdd1;
     --grey: #dddddd;
-
+    --gober:#7FDBDA;
+    --ambi:#ADE498;
+    --soci:#FEBF63;
 }   
 *::after {
     box-sizing: border-box; }
@@ -23,6 +25,7 @@ body {
     font-weight:100px;
     color: var(black );
     background-color:rgb(221, 221, 221);
+    
 }
 footer{
 color:black;

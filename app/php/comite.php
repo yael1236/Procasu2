@@ -46,7 +46,7 @@
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0 content">
             <li class="nav-item dropdown">
                 <a class="nav-link text-dark dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <img src="../../Iconos/Icono-Usuario.png " class="img-fluid rounded-circle avatar mr-2" alt="imagen" />
+                    <img src="../../img/Icono-Usuario.png " class="img-fluid rounded-circle avatar mr-2" alt="imagen" />
                     usuario
                 </a>
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
@@ -65,22 +65,22 @@
             <div class="menu ">
                 <br>
                 <a href="inicio.php" class="m-3 d-inline-block btn  d-block  " style="padding:1rem; background-color: var(--procasu3); text-align: center; ">
-                    <img src="../../Iconos/Icono-Herramientas-PROCASU.png" alt="herramientas" class="iconos " style="margin-right: .5rem;">
+                    <img src="../../img/Iconos_png/Icono-Herramientas-PROCASU.png" alt="herramientas" class="iconos " style="margin-right: .5rem;">
                     Herramientas PROCASU
                 </a>
                 <br>
                 <a href="#" class="m-3 d-inline-block btn d-block   " style="padding:1rem; background-color: var(--procasu3); margin-left: rem;  ">
-                    <img src="../../Iconos/Icono-Biblioteca-Digital.png" alt="herramientas" class="iconos " style="margin-right: 3rem;">
+                    <img src="../../img/Iconos_png/Icono-Biblioteca-Digital.png" alt="herramientas" class="iconos " style="margin-right: 3rem;">
                     Biblioteca Digital
                 </a>
                 <br>
                 <a href="#" class="m-3 d-inline-block btn d-block " style="padding:1rem; background-color: var(--procasu3);   ">
-                    <img src="../../Iconos/Icono-Conoce-PROCASU.png" alt="herramientas" class="iconos " style="margin-right: 2rem;">
+                    <img src="../../img/Iconos_png/Icono-Conoce-PROCASU.png" alt="herramientas" class="iconos " style="margin-right: 2rem;">
                     Conoce PROCASU
                 </a>
                 <br>
                 <a href="contacto.php" class="m-3 d-inline-block btn  d-block " style="padding:1rem; background-color: var(--procasu3); ">
-                    <img src="../../Iconos/Icono-Necesitas-Ayuda.png" alt="herramientas" class="iconos " style="margin-right: 2rem;">
+                    <img src="../../img/Iconos_png/Icono-Necesitas-Ayuda.png" alt="herramientas" class="iconos " style="margin-right: 2rem;">
                     ¿Necesitas Ayuda?
                 </a>
             </div>
@@ -244,6 +244,12 @@
                         <label for="">Contacto adicional</label>
                         <input type="text" placeholder='Contacto adicional' style="margin-top: 1rem;">
                         <hr>
+                        <div style="text-align: center;" class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                            <label class="form-check-label" for="flexSwitchCheckDefault">Añadir 4 miembros más</label>
+                        </div>
+                        
+
                         <div class="modal-footer">
                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
                              <button type="button" class="btn btn-primary">Guardar</button>
@@ -259,30 +265,30 @@
       
             </div>
             <div  style="padding-left:3rem;display:flex; width:90%;">
-            <table style="border-collapse:separate; border-spacing:.5rem; border-color:black;   border-radius: .4rem; " class="table  table-primary ">
+            <table style="background-color: #15224d; border-collapse:separate; border-spacing:.5rem; border-color:black;   border-radius: .4rem; " class="table  table-primary ">
                 <tr>
-                  <td> Nombre</td>  
-                  <td> ...</td>
+                  <td style="background-color: #efefef;"> Nombre</td>  
+                  <td style="background-color: #efefef;"> ...</td>
                 </tr>
                 <tr>
-                  <td> Puesto</td>  
-                  <td> ...</td>
+                  <td style="background-color: #efefef;"> Puesto</td>  
+                  <td style="background-color: #efefef;"> ...</td>
                 </tr>
                 <tr>
-                  <td> RFC</td>  
-                  <td> ...</td>
+                  <td style="background-color: #efefef;"> RFC</td>  
+                  <td style="background-color: #efefef;"> ...</td>
                 </tr>
                 <tr>
-                  <td> Numero de contacto</td>  
-                  <td> ...</td>
+                  <td style="background-color: #efefef;"> Numero de contacto</td>  
+                  <td style="background-color: #efefef;"> ...</td>
+                </tr style="background-color: #efefef;">
+                <tr>
+                  <td style="background-color: #efefef;"> Correo</td>  
+                  <td style="background-color: #efefef;"> ...</td>
                 </tr>
                 <tr>
-                  <td> Correo</td>  
-                  <td> ...</td>
-                </tr>
-                <tr>
-                  <td> Contacto adicional</td>  
-                  <td> ...</td>
+                  <td style="background-color: #efefef;"> Contacto adicional</td>  
+                  <td style="background-color: #efefef;"> ...</td>
                 </tr>
               </table>
             </div>
@@ -291,30 +297,31 @@
               <h1 style="margin-left: 1rem;">Usuario 2</h1>
             </div>
             <div  style="padding-left:3rem;display:flex; width:90%;">
-            <table style="border-collapse:separate; border-spacing:.5rem; border-color:black;   border-radius: .4rem; " class="table  table-primary ">
+            <table style="background-color: #15224d; border-collapse:separate; border-spacing:.5rem; border-color:black;   border-radius: .4rem; " class="table  table-primary ">
                 <tr>
-                  <td> Nombre</td>  
-                  <td> ...</td>
+                  <td style="background-color: #efefef;"> Nombre</td>  
+                  <td style="background-color: #efefef;"> ...</td>
                 </tr>
                 <tr>
-                  <td> Puesto</td>  
-                  <td> ...</td>
+                  <td style="background-color: #efefef;"> Puesto</td>  
+                  <td style="background-color: #efefef;"> ...</td>
                 </tr>
                 <tr>
-                  <td> RFC</td>  
-                  <td> ...</td>
+                  <td style="background-color: #efefef;"> RFC</td>  
+                  <td style="background-color: #efefef;"> ...</td>
                 </tr>
                 <tr>
-                  <td> Numero de contacto</td>  
-                  <td> ...</td>
+                  <td style="background-color: #efefef;"> Numero de contacto</td>  
+                  <td style="background-color: #efefef;"> ...</td>
                 </tr>
                 <tr>
-                  <td> Correo</td>  
-                  <td> ...</td>
+                  <td style="background-color: #efefef;"> Correo</td>  
+                  <td style="background-color: #efefef;"> ...</td>
                 </tr>
+                
                 <tr>
-                  <td> Contacto adicional</td>  
-                  <td> ...</td>
+                  <td style="background-color: #efefef;"> Contacto adicional</td>  
+                  <td style="background-color: #efefef;"> ...</td>
                 </tr>
               </table>
             </div>

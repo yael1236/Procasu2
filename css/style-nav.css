@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root{
     --procasu1: #15224d;
     --procasu2: #11bdd1;
@@ -154,3 +155,161 @@ h6{
     color: var(--procasu3);
     border: 0;
 }
+=======
+:root{
+    --procasu1: #15224d;
+    --procasu2: #11bdd1;
+    --procasu3:#dddddd;
+}
+/*botones modelo y notificaciones*/
+.btn-primary {
+    background-color: var(--procasu1);
+    border: 0;
+}
+.btn-primary1 {
+    background-color: var(--procasu3);
+    border: 0;
+}
+.btn-primary:hover {
+    background-color: #505c85 ;
+}
+.btn-outline-primary {
+    border: 0;
+    color: var(--procasu1);
+}
+.border{
+    border: 1px solid var(--procasu1);
+}
+.btn-outline-primary:hover {
+    background-color: var(--procasu1) ;
+}
+.texto1{
+    color: var(--procasu1);
+}
+/*nav*/
+.navbar{
+    background-color: var(--procasu3);
+}
+
+/*Imagen*/
+.avatar {
+    max-width: 35px;
+}
+/*menu*/
+#sidebar-container  {
+    background-color: var(--procasu1);
+    min-height: 100vh;
+    min-width: 40vh;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+#sidebar-container .menu {
+    width: 18rem;
+}
+
+/*Iconos*/
+.iconos {
+    max-width: 35px;
+}
+
+#content {
+    overflow-y: auto;
+    height: 100vh;
+    padding-bottom: 5rem;
+}
+
+/*:::::Pie de Pagina*/
+footer .conbnt{
+    background-color: var(--procasu3);
+    color: #0a1a2a;
+    width: 100%;
+}
+.conbnt{
+    display: flex;
+    width: 100%;
+}
+.texto{
+    text-align: center;
+    padding-top: 1rem;
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+.largo{
+    width: 260px;
+    padding-top: 1rem;
+}
+.largo1{
+    width: 150px;
+    padding-top: 1rem;
+    padding-right: 2rem;
+}
+.icon{
+    margin-right: 1rem;
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+.cont{
+    background-color: var(--procasu1);
+    width: 100%;
+    display: flex;
+}
+.derechos{
+    color: #dddddd;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+.cont .small{
+    color: #dddddd;
+    margin-top: 3rem;
+}
+
+/*modelo*/
+.modelo{
+    padding-left: 2rem ;
+    padding-right: 2rem;
+}
+.ico{
+    align-content: center;
+
+}
+.lg{    
+    width: 95%;
+}
+.card{
+    width: 115%;
+}
+.card1{
+    width: 150%;
+    padding-left: 3rem;
+    margin-left: 1.5rem;
+}
+a:hover {
+    text-decoration: none;
+    font-weight: 100;
+}
+.sub{
+    text-align: center;
+}
+.progress{
+    width: 600px;
+} 
+h6{
+    color: white;
+}
+/*perfil*/
+.form-group {
+  margin-bottom: 1rem; 
+}
+.input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 500px; 
+}
+
+.nav-item{
+    color: var(--procasu3);
+    border: 0;
+}
+>>>>>>> 55a833c3646cad3a86faddac83405b3e6797b2c1

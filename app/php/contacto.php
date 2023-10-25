@@ -39,7 +39,7 @@ if (isset($_POST['submit'])) {
         $msj .= "Asunto: $asunto<br><br>";
         $msj .= "Cuerpo del mensaje:";
         $msj .= '<p>' . $mensaje . '</p>';
-        $msj .= "--<p>Información enviada desde el formulario </p>";
+        $msj .= "--<p>Correo de atención</p>";
 
         $mail = new PHPMailer(true);
 
@@ -52,12 +52,12 @@ if (isset($_POST['submit'])) {
             $mail->Password = 'Procasu2023#admin';
             $mail->Port = 465;
 
-            //$mail->setFrom('', 'Emisor');
+            $mail->setFrom('atencion@procasu.net', 'Emisor');
             $mail->addAddress('atencion@procasu.net', 'Receptor');
             //$mail->addReplyTo('otro@dominio.com');
 
             $mail->isHTML(true);
-            $mail->Subject = 'Formulario de contacto';
+            $mail->Subject = 'Pantalla ayuda';
             $mail->Body =$msj;
 
             $mail->send();
@@ -111,7 +111,7 @@ if (isset($_POST['submit'])) {
                 <br>
                 <br>
                 <a href="#" class="m-3 d-inline-block btn d-block   " style="padding:1rem; background-color: var(--procasu3); margin-left: rem;  ">
-                    <img src="../../img/Icono-Biblioteca-Digital.png" alt="herramientas" class="iconos " style="margin-right: 3rem;">
+                    <img src="../../img/Iconos_png/Icono-Biblioteca-Digital.png" alt="herramientas" class="iconos " style="margin-right: 3rem;">
                     Biblioteca Digital
                 </a>
                 <br>
@@ -224,12 +224,12 @@ if (isset($_POST['submit'])) {
 									<div class="container aline:left;">
 										<div class="row">
 											<div class="col-2 text-right">
-											<i class="bi bi-whatsapp"></i>
+											<img src="../../img/Icono Whats.png" width="35px">
 											</div>
-											<div class="col-10 p-0" ><a style="color:black;" href="https://wa.me/5541232916">Whatsapp PROCASU</a>
+											<div class="col-10 p-6" ><a style="color:black;" href="https://wa.me/5541232916">Whatsapp PROCASU</a>
                                             </div>
 											<div class="col-2 text-right" class="iconos">
-                                            <img src="../../Iconos/Icono-Telefono.png" width="35px">
+                                            <img src="../../img/Icono Telefono.png" width="35px">
 											</div>
 											<div class="col-9 p-6"><a style="color:black;" href="tel:+52 55-4123-29116">Línea PROCASU</a></div>
 											</div>

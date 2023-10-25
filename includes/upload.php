@@ -1,6 +1,6 @@
 <?php
 // Comprobar si se ha cargado un archivo
-if (isset($_docs['archivo'])) {
+if (isset($_docs['archivo'])) 
     //extract($_POST);
     $indicador  = $_POST['indicador'];
     $objetivos = $_POST['objetivos'];
