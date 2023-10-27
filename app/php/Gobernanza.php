@@ -1,59 +1,5 @@
-<!DOCTYPE html>
-<html lang="es">
 
-    <head>
-    
-   <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.3/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Styles -->
-    <link rel="stylesheet" href="../../css/stylein.css">
-    <link rel="stylesheet" href="../../style-nav.css">
-    <!-- Google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Muli:300,700&display=swap" rel="stylesheet">
-
-    <!-- Ionic icons -->
-    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
-
-    <!-- Bootstrap Iconos -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-	  <meta charset="UTF-8">
-	
-    <title>Gobernanza</title>
-    </head>
-    <body>
-      <div class="d-flex" id="content-wrapper">
-
-      <!-- MENU -->
-      <div id="sidebar-container" class="bg-primary" style=" top:0; height:auto;">
-      <div class="logo">
-      <h4 class="text-light font-weight-bold mb-0">PROCASU</h4>
-      </div>
-      <div class="menu">
-      <a href="#" class="m-3 d-inline-block btn  d-block  " style="padding:1rem; background-color: var(--procasu3); text-align: center; ">
-      <img src="../../img/Iconos_png/Icono-Herramientas-PROCASU.png" alt="herramientas" class="iconos " style="margin-right: .5rem;">
-      Herramientas PROCASU
-      </a>
-      <br>
-      <br>
-      <a href="#" class="m-3 d-inline-block btn d-block   " style="padding:1rem; background-color: var(--procasu3); margin-left: rem;  ">
-      <img src="../../img/Iconos_png/Icono-Biblioteca-Digital.png" alt="herramientas" class="iconos " style="margin-right: 3rem;">
-      Biblioteca Digital
-      </a>
-      <br>
-      <a href="#" class="m-3 d-inline-block btn d-block " style="padding:1rem; background-color: var(--procasu3);   ">
-      <img src="../../img/Iconos_png/Icono-Conoce-PROCASU.png" alt="herramientas" class="iconos " style="margin-right: 2rem;">
-      Conoce PROCASU
-      </a>
-      <br>
-      <a href="../php/contacto.php" class="m-3 d-inline-block btn  d-block " style="padding:1rem; background-color: var(--procasu3); ">
-      <img src="../../img/Iconos_png/Icono-Necesitas-Ayuda.png" alt="herramientas" class="iconos " style="margin-right: 2rem;">
-      ¿Necesitas Ayuda?
-      </a>
-      </div>
-      </div>
-      <!-- Fin MENU -->
+      <?php include_once("../../app/php/nav.php") ?> 
         <form  class="form" method="POST" action="../../includes/upload.php" autocomplete="off">
         <div class="container text-center">
         <div class="row">
@@ -237,10 +183,7 @@
         </div>
         </div>
       </body>
-        <footer >
-          <br>
-					<p class="text-center">Copyright <sup>©</sup> 2023-2024 Procasu todos los derechos reservados </p>
-        </footer>
+      <?php include_once("../../app/php/footer.php") ?> 
         </main>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </html>
