@@ -28,6 +28,7 @@
 
     
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../../css/style-nav.css">
 
    <link rel="stylesheet" href="../../css/stylebetzy.css">
     <link href="https://fonts.googleapis.com/css?family=Muli:300,700&display=swap" rel="stylesheet">
@@ -38,62 +39,7 @@
 </head>
 
 <body>
-<nav class="navbar navbar-expand-lg  ">
-        <a class="navbar-brand" href="#">
-            <img src="../../img/Iconos_png/logo Procasu.png" alt="logo" width="150px">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <div class="" style="margin-top: 1rem; margin-left: 3rem;">
-                    <p class="text-sm-left">PROGRAMA PARA EL DESARROLLO DE LA SUSTENTABILIDAD EN LA CADENA DE SUMINISTRO</p>
-                </div>
-        </div>
-        <ul class="navbar-nav ml-auto mt-2 mt-lg-0 content">
-            <li class="nav-item dropdown">
-                <a class="nav-link text-dark dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <img src="../../img/Iconos_png/Icono-Usuario.png " class=" img-fluid rounded-circle avatar mr-2" alt="imagen" />
-                    usuario
-                </a>
-                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="perfil.php">Mi perfil</a>
-                    <a class="dropdown-item" href="expediente.php">Expediente</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="../../hola.php">Cerrar sesión</a>
-                </div>
-            </li>
-        </ul>
-    </nav>
-
-    <div class="d-flex">
-
-        <div id="sidebar-container" class=" d-inline-block  d-flex ">
-            <div class="menu ">
-                <br>
-                <a href="../../inicio.php" class="m-3 d-inline-block btn  d-block  " style="padding:1rem; background-color: var(--procasu3); text-align: center; ">
-                    <img src="../../img/Iconos_png/Icono-Herramientas-PROCASU.png" alt="herramientas" class="iconos " style="margin-right: .5rem;">
-                    Herramientas PROCASU
-                </a>
-                <br>
-                <a href="#" class="m-3 d-inline-block btn d-block   " style="padding:1rem; background-color: var(--procasu3); margin-left: rem;  ">
-                    <img src="../../img/Iconos_png/Icono-Biblioteca-Digital.png" alt="herramientas" class="iconos " style="margin-right: 3rem;">
-                    Biblioteca Digital
-                </a>
-                <br>
-                <a href="#" class="m-3 d-inline-block btn d-block " style="padding:1rem; background-color: var(--procasu3);   ">
-                    <img src="../../img/Iconos_png/Icono-Conoce-PROCASU.png" alt="herramientas" class="iconos " style="margin-right: 2rem;">
-                    Conoce PROCASU
-                </a>
-                <br>
-                <a href="contacto.php" class="m-3 d-inline-block btn  d-block " style="padding:1rem; background-color: var(--procasu3); ">
-                    <img src="../../img/Iconos_png/Icono-Necesitas-Ayuda.png" alt="herramientas" class="iconos " style="margin-right: 2rem;">
-                    ¿Necesitas Ayuda?
-                </a>
-            </div>
-        </div>
+<?php include_once("../../app/php/nav.php") ?> 
         <main style="height: auto; width:100%; ">
           <div style="text-align: center;">
             <p style="margin-top: 1rem; margin-left:.7rem;  font-size: 2rem; font-family:serif;">Herramientas PROCASU</p>
@@ -382,10 +328,6 @@
             });
             </script>
             
-<footer >
-            <br>
-					<p class="text-center">Copyright <sup>©</sup> 2023-2024 Procasu todos los derechos reservados </p>
-				
-</footer>
+            <?php include_once("../../app/php/footer.php") ?> 
 
 </html>
