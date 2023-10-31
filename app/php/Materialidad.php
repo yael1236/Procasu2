@@ -13,8 +13,6 @@
                             <div class="card-header bg-light">
                                 <h6 class="mb-0  text-center" style="color:black;"> Estudio de materialidad</h6>
                             </div>
-            
-                            
                            <p class="text-center font-weight text-center"> El estudio de materialidad consiste en un análisis que se realiza interna y externamente en una empresa con el propósito de identificar y destacar los asuntos relevantes en materia ambiental, social y de gobernanza. Es una herramienta que proporciona información estratégica y 
                                marca la ruta a seguir para la implementación de un plan de sustentabilidad.
                                El objetivo de este análisis es identificar la materialidad para lograr la planeación correcta de la sustentabilidad y generar vinculación con las partes interesadas, herramientas de gestión e indicadores de responsabilidad social.
@@ -39,8 +37,8 @@
     </div>
     <div class="col">
     <a href="#" class="my-1 m-4.9 border btn btn-outline-primary" style="padding-left: 1rem; padding-right:1rem; margin-left: 1rem;">
-                                    Directivos
-                                </a>
+     Directivos
+    </a>
     </div>
     <div class="col">
     <a href="#" class="my-1 m-4.9 border btn btn-outline-primary" style="padding-left: 1rem; padding-right:1rem; margin-left: 1rem;">
