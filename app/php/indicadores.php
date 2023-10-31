@@ -2,6 +2,7 @@
         <body>
         <?php include_once("../../app/php/nav.php") ?> 
                 <main style="height: 41.3rem; width:auto;" >
+                <br>
                 <div style="display: flex; margin:auto; padding:none; ">
                 <div class="container p-15 p-15">
                 <div class="row">
@@ -9,18 +10,15 @@
                 <div class="row align-items-start" >
                 <div class="col-2 ">
                 <div class="card-header bg-grey">
-                <div class="card rounded bg-grey">
                 <div class="btn-group">
                 <div class="btn  dropdown-toggle p-2" type="button" style="background-color: white; color:black;" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
                 Commitment
                 </div>
                 </div>
                 </div>
-                </div>
                 </div> 
                 <div class="col-2">
                 <div class="card-header bg-grey">
-                <div class="card rounded-1 bg-grey">
                 <div class="btn-group">
                 <button class="btn  dropdown-toggle p-2" type="button" style="background-color: white; color:black;" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
                 ESG Developer
@@ -28,10 +26,8 @@
                 </div>
                 </div>
                 </div>
-                </div>
                 <div class="col-2">
                 <div class="card-header bg-grey">
-                <div class="card rounded bg-grey">
                 <div class="btn-group">
                 <button class="btn  dropdown-toggle p-2" type="button" style="background-color: white; color:black;" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
                 ESG Master
@@ -39,10 +35,8 @@
                 </div>
                 </div>
                 </div>
-                </div>
                 <div class="col-2">
                 <div class="card-header bg-grey">
-                <div class="card rounded bg-grey">
                 <div class="btn-group">
                 <button class="btn  dropdown-toggle p-2" type="button" style="background-color: white; color:black;" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
                 ESG Pro
@@ -50,21 +44,18 @@
                 </div>
                 </div>
                 </div>
-                </div>
                 <div class="col-2">
                 <div class="card-header bg-grey">
-                <div class="card rounded bg-grey">
                 <div class="btn-group">
                 <button class="btn  dropdown-toggle p-2" type="button" style="background-color: white; color:black;" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
                 ESG Leader
                 </button>
                 </div>
-                </div> 
                 </div>
                 </div>
                </div>
                <br>
-               <div class="col text-center" class="aling-center">
+               <div class="col text-center" class="aling-center" style="margin-left:3rem;">
                 <div class="card" style="width: 40rem;">
                 <div class="card-header" style="background-color:#2669F5;">
                 <h5>Gobernanza</h5>
@@ -125,7 +116,7 @@
                 </div>
                 <div class="w-100 d-none d-md-block"></div>
                 <br>
-                <div class="container text-center">
+                <div class="container text-center " style="margin-left:3rem;">
                 <div class="row">
                 <div class="col">
                 <div class="card" style="width: 40rem;">
@@ -189,7 +180,7 @@
                 </div>
                 <div class="w-100 d-none d-md-block"></div>
                 <br>
-                <div class="col text-center ">
+                <div class="col text-center" style="margin-left:3rem;">
                 <div class="card" style="width: 40rem;">
                 <div class="card-header" style="background-color:#F08F1E;">
                 <h5>Social</h5>
@@ -250,9 +241,10 @@
                 </div>
                 </div>
                 </div>
-        
+                
                 </main> 
                 
         </body> 
+       </div> 
         <?php include_once("../../app/php/footer.php") ?> 
     </html>

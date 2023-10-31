@@ -1,6 +1,7 @@
 
       <?php include_once("../../app/php/nav.php") ?> 
         <form  class="form" method="POST" action="../../includes/upload.php" autocomplete="off">
+        <br><br>
         <div class="container text-center">
         <div class="row">
         <div class="col" >
@@ -127,8 +128,10 @@
         <div class="row" >
         <div class="col">
         <div class="card" style="width: 18rem;">
-        <div class="card-header">
-        <h5>Riesgos</h5>
+        <div class="card-header" style>
+        <h5>Riesgos
+        <img src="../../img/signo_de_interrogacion.png" style="width:1rem;"  data-bs-toggle="tooltip" data-bs-placement="top" >
+        </h5>
         <ul class="list-group list-group-flush">
         <li class="list-group-item"> 
         <label class="form-label aling-center">
@@ -184,6 +187,6 @@
         </div>
       </body>
       <?php include_once("../../app/php/footer.php") ?> 
-        </main>
+        
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </html>

@@ -62,7 +62,7 @@
 
 
             <div class="form-group">
-              <form action="inicio.php" method="post">
+              <form action="app/php/inicio.php" method="post">
               <button name="entrar" class="btn bnt-outline-dark d-inline-block text-dark mr-2 mb-3 " type="submit"> ENTRAR</button>
               <br>
               <br>

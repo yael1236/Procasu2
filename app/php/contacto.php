@@ -102,9 +102,9 @@ if (isset($_POST['submit'])) {
             <?php include_once("../../app/php/nav.php") ?>
 
             <div class="row">
-                <div class="col-lg-6 col-md-12">
+                <div class="col-lg-6 col-md-12" style="margin-left:3rem;">
 
-                    <form style="margin-left: 1rem;" class="form" method="POST" action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>" autocomplete="off">
+                    <form style="margin-left:2 rem;" class="form" method="POST" action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>" autocomplete="off">
                         
                         <div class="form-group col-12 col-sm-6">
                             <label for="nombre" class="form-label"> Nombre</label>
@@ -133,13 +133,14 @@ if (isset($_POST['submit'])) {
                     </form>         
 								</div>
                                 <section style="width: 20rem; height:10rem; color:black; font-size:1.6rem;">
-									<div class="container aline:left;">
-										<div class="row">
+									<div class="container aline:left;" style="margin-left:17rem;">
+										<div class="row" >
 											<div class="col-2 text-right">
 											<img src="../../img/Icono Whats.png" width="35px">
 											</div>
 											<div class="col-10 p-6" ><a style="color:black;" href="https://wa.me/5541232916">Whatsapp PROCASU</a>
                                             </div>
+                                            <br>
 											<div class="col-2 text-right" class="iconos">
                                             <img src="../../img/Icono Telefono.png" width="35px">
 											</div>
@@ -180,10 +181,9 @@ if (isset($_POST['submit'])) {
         </div>
     </div>
 
-    
-    
 </body>
 <?php include_once("../../app/php/footer.php") ?>   
+
 
 </html>
     

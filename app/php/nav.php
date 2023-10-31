@@ -38,9 +38,9 @@
                 </a>
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="perfil1.php">Mi perfil</a>
-                    <a class="dropdown-item" href="#">Expediente</a>
+                    <a class="dropdown-item" href="expediente.php">Expediente</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Cerrar sesión</a>
+                    <a class="dropdown-item" href="../../registro.php">Cerrar sesión</a>
                 </div>
             </li>
         </ul>
@@ -51,7 +51,7 @@
         <div id="sidebar-container" class=" d-inline-block  d-flex ">
             <div class="menu ">
                 <br>
-                <a href="#" class="m-3 d-inline-block btn  d-block  " style="padding:1rem; background-color: var(--procasu3); text-align: center; ">
+                <a href="herramientas.php" class="m-3 d-inline-block btn  d-block  " style="padding:1rem; background-color: var(--procasu3); text-align: center; ">
                     <img src="../../Iconos/Herramientas PROCASU.png" alt="herramientas" class="iconos " style="margin-right: .5rem;">
                     Herramientas PROCASU
                 </a>
@@ -66,7 +66,7 @@
                     Conoce PROCASU
                 </a>
                 <br>
-                <a href="#" class="m-3 d-inline-block btn  d-block " style="padding:1rem; background-color: var(--procasu3); ">
+                <a href="contacto.php" class="m-3 d-inline-block btn  d-block " style="padding:1rem; background-color: var(--procasu3); ">
                     <img src="../../Iconos/Necesitas Ayuda.png" alt="herramientas" class="iconos " style="margin-right: 2rem;">
                     ¿Necesitas Ayuda?
                 </a>
