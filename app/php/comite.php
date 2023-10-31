@@ -12,7 +12,7 @@
       <section>
         <div class="container">
           <div class="row">
-            <div style="padding: 3rem; display:flex; width:100%;">
+            <div style="padding: 3rem; display:flex; width:86%;">
               <img src="../../img/usuario.jpg"  style="width:10rem;">
               <h1 style="margin-left: 1rem;">Usuario 1</h1>
                <!-- Button trigger modal -->
@@ -32,92 +32,98 @@
         </button>
       </div>
       <div class="modal-body">
-        <p>Por favor agregar mínimo 6 miembros maximo 10</p>
-        <form action="#">
-                        <label for="size_3">Fotografía del Integrante</label>
-                        <input type="file" placeholder='Fotografía del Integrante'>
+
+      <p>Por favor agregar mínimo 6 miembros maximo 10</p>
+    
+      <form action="conexionprocasu.php" method="post">
+          <hr>
+          <h3>Nombre del comité</h3>
+          <label for="comite">Introducir el nombre del comité</label>
+          <input type="text" name="NomComite" id="NomComite">
+          <hr>                        <label for="">Fotografía del Integrante</label>
+                        <input type="file" name="foto0" id="foto0" placeholder='Fotografía del Integrante'>
                         <br>
                         <label for="">Nombre</label>
-                        <input type="text" placeholder='Nombre del Integrante' style="margin-top: 1rem;">
+                        <input type="text" name="NomInt0" id="NomInt0" placeholder='Nombre del Integrante' style="margin-top: 1rem;">
                         <br>
                         <label for="">Puesto</label>
-                        <input type="text" placeholder='Puesto' style="margin-top: 1rem;">
+                        <input type="text" name='Puesto0' style="margin-top: 1rem;">
                         <br>
                         <label for="">RFC</label>
-                        <input type="text" placeholder='RFC' style="margin-top: 1rem;">
+                        <input type="text" name="RFC0" placeholder='RFC' style="margin-top: 1rem;">
                         <br>
                         <label for="">Correo</label>
-                        <input type="text" placeholder='Correo' style="margin-top: 1rem;">
+                        <input type="text" name="Correo0" placeholder='Correo' style="margin-top: 1rem;">
                         <br>
                         <label for="">Número de contacto</label>
-                        <input type="text" placeholder='Número de contacto' style="margin-top: 1rem;">
+                        <input type="text" name="NumContac0" placeholder='Número de contacto' style="margin-top: 1rem;">
                         <br>
                         <label for="">Contacto adicional</label>
-                        <input type="text" placeholder='Contacto adicional' style="margin-top: 1rem;">
+                        <input type="text" name="ContacAdd0	" placeholder='Contacto adicional' style="margin-top: 1rem;">
                         <hr>
                         <label for="size_3">Fotografía del Integrante</label>
-                        <input type="file" placeholder='Fotografía del Integrante'>
+                        <input type="file" name="foto1" placeholder='Fotografía del Integrante'>
                         <br>
                         <label for="">Nombre</label>
-                        <input type="text" placeholder='Nombre del Integrante' style="margin-top: 1rem;">
+                        <input type="text" name="NomInt1" placeholder='Nombre del Integrante' style="margin-top: 1rem;">
                         <br>
                         <label for="">Puesto</label>
-                        <input type="text" placeholder='Puesto' style="margin-top: 1rem;">
+                        <input type="text" name="Puesto1" placeholder='Puesto1' style="margin-top: 1rem;">
                         <br>
                         <label for="">RFC</label>
-                        <input type="text" placeholder='RFC' style="margin-top: 1rem;">
+                        <input type="text" name="RFC1" placeholder='RFC1' style="margin-top: 1rem;">
                         <br>
                         <label for="">Correo</label>
-                        <input type="text" placeholder='Correo' style="margin-top: 1rem;">
+                        <input type="text" name="Correo1" placeholder='Correo1' style="margin-top: 1rem;">
                         <br>
                         <label for="">Número de contacto</label>
-                        <input type="text" placeholder='Número de contacto' style="margin-top: 1rem;">
+                        <input type="text" name="NumContac1" placeholder='Número de contacto' style="margin-top: 1rem;">
                         <br>
                         <label for="">Contacto adicional</label>
-                        <input type="text" placeholder='Contacto adicional' style="margin-top: 1rem;">
+                        <input type="text" name="ContacAdd1" placeholder='Contacto adicional' style="margin-top: 1rem;">
                         <hr>
                         <hr>
                         <label for="size_3">Fotografía del Integrante</label>
-                        <input type="file" placeholder='Fotografía del Integrante'>
+                        <input type="file" name="foto2" placeholder='Fotografía del Integrante'>
                         <br>
                         <label for="">Nombre</label>
-                        <input type="text" placeholder='Nombre del Integrante' style="margin-top: 1rem;">
+                        <input type="text" name="NomInt2" placeholder='Nombre del Integrante' style="margin-top: 1rem;">
                         <br>
                         <label for="">Puesto</label>
-                        <input type="text" placeholder='Puesto' style="margin-top: 1rem;">
+                        <input type="text" name="Puesto2" placeholder='Puesto' style="margin-top: 1rem;">
                         <br>
                         <label for="">RFC</label>
-                        <input type="text" placeholder='RFC' style="margin-top: 1rem;">
+                        <input type="text" name="RFC2" placeholder='RFC' style="margin-top: 1rem;">
                         <br>
                         <label for="">Correo</label>
-                        <input type="text" placeholder='Correo' style="margin-top: 1rem;">
+                        <input type="text" name="Correo2" placeholder='Correo' style="margin-top: 1rem;">
                         <br>
                         <label for="">Número de contacto</label>
-                        <input type="text" placeholder='Número de contacto' style="margin-top: 1rem;">
+                        <input type="text" name="NumContac2" placeholder='Número de contacto' style="margin-top: 1rem;">
                         <br>
                         <label for="">Contacto adicional</label>
-                        <input type="text" placeholder='Contacto adicional' style="margin-top: 1rem;">
+                        <input type="text" name="ContacAdd2" placeholder='Contacto adicional' style="margin-top: 1rem;">
                         <hr><hr>
                         <label for="size_3">Fotografía del Integrante</label>
-                        <input type="file" placeholder='Fotografía del Integrante'>
+                        <input type="file" name="foto3" placeholder='Fotografía del Integrante'>
                         <br>
                         <label for="">Nombre</label>
-                        <input type="text" placeholder='Nombre del Integrante' style="margin-top: 1rem;">
+                        <input type="text" name="NomInt3" placeholder='Nombre del Integrante' style="margin-top: 1rem;">
                         <br>
                         <label for="">Puesto</label>
-                        <input type="text" placeholder='Puesto' style="margin-top: 1rem;">
+                        <input type="text" name="Puesto3" placeholder='Puesto' style="margin-top: 1rem;">
                         <br>
                         <label for="">RFC</label>
-                        <input type="text" placeholder='RFC' style="margin-top: 1rem;">
+                        <input type="text" name="RFC3" placeholder='RFC' style="margin-top: 1rem;">
                         <br>
                         <label for="">Correo</label>
-                        <input type="text" placeholder='Correo' style="margin-top: 1rem;">
+                        <input type="text" name="Correo3" placeholder='Correo' style="margin-top: 1rem;">
                         <br>
                         <label for="">Número de contacto</label>
-                        <input type="text" placeholder='Número de contacto' style="margin-top: 1rem;">
+                        <input type="text" name="NumContac3" placeholder='Número de contacto' style="margin-top: 1rem;">
                         <br>
                         <label for="">Contacto adicional</label>
-                        <input type="text" placeholder='Contacto adicional' style="margin-top: 1rem;">
+                        <input type="text" name="ContacAdd3" placeholder='Contacto adicional' style="margin-top: 1rem;">
                         <hr><hr>
                         <label for="size_3">Fotografía del Integrante</label>
                         <input type="file" placeholder='Fotografía del Integrante'>
@@ -169,7 +175,7 @@
 
                         <div class="modal-footer">
                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
-                             <button type="button" class="btn btn-primary">Guardar</button>
+                             <button type="submyt" class="btn btn-primary">Guardar</button>
                         </div>
                     </form>
       </div>
@@ -181,7 +187,7 @@
 <!-- fin modal-->
       
             </div>
-            <div  style="padding-left:3rem;display:flex; width:90%;">
+            <div  style="padding-left:3rem; display:flex; width:80%;">
             <table style="background-color: #15224d; border-collapse:separate; border-spacing:.5rem; border-color:black;   border-radius: .4rem; " class="table  table-primary ">
                 <tr>
                   <td style="background-color: #efefef;"> Nombre</td>  
@@ -213,7 +219,7 @@
               <img src="../../img/usuario.jpg"  style="width:10rem;">
               <h1 style="margin-left: 1rem;">Usuario 2</h1>
             </div>
-            <div  style="padding-left:3rem;display:flex; width:90%;">
+            <div  style="padding-left:3rem;display:flex; width:80%;">
             <table style="background-color: #15224d; border-collapse:separate; border-spacing:.5rem; border-color:black;   border-radius: .4rem; " class="table  table-primary ">
                 <tr>
                   <td style="background-color: #efefef;"> Nombre</td>  

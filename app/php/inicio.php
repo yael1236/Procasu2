@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> 04598ca627a783a03583884ddd853bed2d2e6d35
+>>>>>>> d3711f9f48e0d429b162621cbe86ba1892e21584
 <!DOCTYPE html>
 <html lang="en">
 
@@ -30,7 +37,11 @@
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0 content">
             <li class="nav-item dropdown">
                 <a class="nav-link text-dark dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+<<<<<<< HEAD
                     <img src="../../Iconos/Icono-Usuario.png " class="img-fluid rounded-circle avatar mr-2" alt="imagen" />
+=======
+                    <img src="../../img/Iconos_png/Icono-Usuario.png " class="img-fluid rounded-circle avatar mr-2" alt="imagen" />
+>>>>>>> d3711f9f48e0d429b162621cbe86ba1892e21584
                     usuario
                 </a>
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
@@ -48,7 +59,11 @@
         <div id="sidebar-container" class=" d-inline-block  d-flex ">
             <div class="menu ">
                 <br>
+<<<<<<< HEAD
                 <a href="herramientas.php" class="m-3 d-inline-block btn  d-block  " style="padding:1rem; background-color: var(--procasu3); text-align: center; ">
+=======
+                <a href="#" class="m-3 d-inline-block btn  d-block  " style="padding:1rem; background-color: var(--procasu3); text-align: center; ">
+>>>>>>> d3711f9f48e0d429b162621cbe86ba1892e21584
                     <img src="../../Iconos/Herramientas PROCASU.png" alt="herramientas" class="iconos " style="margin-right: .5rem;">
                     Herramientas PROCASU
                 </a>
@@ -63,7 +78,11 @@
                     Conoce PROCASU
                 </a>
                 <br>
+<<<<<<< HEAD
                 <a href="contacto.php" class="m-3 d-inline-block btn  d-block " style="padding:1rem; background-color: var(--procasu3); ">
+=======
+                <a href="#" class="m-3 d-inline-block btn  d-block " style="padding:1rem; background-color: var(--procasu3); ">
+>>>>>>> d3711f9f48e0d429b162621cbe86ba1892e21584
                     <img src="../../Iconos/Necesitas Ayuda.png" alt="herramientas" class="iconos " style="margin-right: 2rem;">
                     ¿Necesitas Ayuda?
                 </a>
@@ -79,7 +98,11 @@
                     <div class="col-lg-8 my-3 mx-3 ">
                         <div class="card rounded-lg d-flex">
                             <div class="card-header " style="background-color: var(--procasu1); color: white;">
+<<<<<<< HEAD
                                 <h6 class="mb-0  text-center mo"> <img src="../../Iconos/Modelos de Gestion.png" alt="Modelo" width="35px" style="margin-right: 1rem; ">Modelo de Gestión</h6>
+=======
+                                <h6 class="mb-0  text-center mo"> <img src="../../Iconos/Modelos de Gestión.png" alt="Modelo" width="35px" style="margin-right: 1rem; ">Modelo de Gestión</h6>
+>>>>>>> d3711f9f48e0d429b162621cbe86ba1892e21584
                             </div>
                             <a href="#" class="texto1  align-middle my-2 mx-5" style="padding-left: 10rem; padding-right: 3rem; margin-left: 6rem;">
                                 Objetivos Estrategicos
@@ -212,6 +235,7 @@
     </footer>
 
 
+<<<<<<< HEAD
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
@@ -220,4 +244,8 @@
 
 
    
+=======
+
+
+>>>>>>> d3711f9f48e0d429b162621cbe86ba1892e21584
 </html>
